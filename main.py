@@ -1,10 +1,13 @@
 import discord
+from discord.ext import commands
+import os
 
-client = discord.Client()
+client = commands.Bot(command_prefix='~', intents = discord.Intents.all())
 
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print('I am {0.user}'.format(client) )
+    print("-----------------------------")
     
     @client.event
     async def on_message(message):
@@ -14,6 +17,6 @@ async def on_ready():
         if message.content.startswith('~hello'):
             await message.channel.send('Wassupppp')
             
-    client.run(MTIxMTQzNTc4NTI3NTA1NjEyOA.Getgnn.BugDWp6IkeVz93oWqColG5rmgZKTc45vrfxwVM)
+    client.run(os.getenv('TOKEN'))
         
     
