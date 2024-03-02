@@ -8,7 +8,7 @@ from userresponse import chat_with_gpt
 load_dotenv() 
 TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
 
-intents: Intents = Intents.default()
+intents: Intents = Intents.default() 
 intents.message_content = True
 client: Client = Client(intents = intents)
 

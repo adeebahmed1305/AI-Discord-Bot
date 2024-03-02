@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() 
 
 def get_response(user_input: str) -> str: 
     lowered: str = user_input.lower()
