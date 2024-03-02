@@ -1,11 +1,3 @@
-from random import choice, randint
-
-def get_response(user_input: str) -> str:
-    lowered: str = user_input.lower()
-    
-    if lowered == '':
-        return "What was that?"
-    elif 'hello' in lowered:
-        return "Yoooo what's up!"
-    else:
-        return "huh?"
+version https://git-lfs.github.com/spec/v1
+oid sha256:41011392160eaf5b686bdc3e2f6a3e83bc0bd411da6b3c1e9e5184e7f126c328
+size 990
