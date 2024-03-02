@@ -5,7 +5,7 @@ from discord import Intents, Client, Message
 from userresponse import get_response
 from userresponse import chat_with_gpt
 
-load_dotenv() 
+load_dotenv()  
 TOKEN: Final[str] = os.getenv('DISCORD_TOKEN')
 
 intents: Intents = Intents.default() 
