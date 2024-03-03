@@ -1,3 +1,7 @@
 # AI-Discord-Bot
 
 This project creates a Discord bot that leverages the power of AI to answer user questions in real-time. By integrating a sophisticated language model, the bot can understand natural language queries and provide accurate and informative responses on a wide range of topics. With this bot, users can get instant answers to their questions without leaving the Discord platform, improving the user experience and making information more accessible. The bot can be customized to fit the specific needs and interests of the Discord server, and its knowledge can be continuously updated to ensure it remains accurate and up-to-date. By combining the convenience of Discord with the intelligence of AI, this project aims to create a valuable tool for online communities. 
+
+# How To Use
+
+If you are looking to use this bot you will need to make your own Discord Bot API Key and OpenAI API Key. Use those two keys to replace the spots where it says "DISCORD_TOKEN"(in main.py file) and "CHATGPT_API_KEY"(in userresponse.py file). Finally run the code and to use the bot you can use the command "/ai" or "/bot", here is an example, "/ai What is 5+5". You can change the command in the main.py file to whatever you want.
